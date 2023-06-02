@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style:Plus Jakarta Sans;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    /* position: fixed;
+    z-index: 1px; */
+}
+
+.logo img {
+    width: 201px;
+    padding-left: 20px;
+
+}
+
+.right_section{
+    padding-top: 16px;
+    font-size: 20px;
+    padding-right: 38px;
+    /* font-style: Plus Jakarta Sans; */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    /* font-style: Plus Jakarta Sans; */
+    /* z-index: 0px; */
+    padding-top: 78px;
+}
+
+.left_section {
+    width: 34%;
+    padding: 0px 50px;
+    padding-left: 73px;
+}
+
+.newbact_icon {
+    background-color: blue;
+    display: inline-block;
+    padding: 11px;
+    border-radius: 30px;
+    color: white;
+    font-style: Plus Jakarta Sans;
+}
+
+.left_section h1 {
+    font-size: 40px;
+    background: linear-gradient(90deg, #2B7DDD 3.58%, #45CDD6 50.39%, #46B314 98.18%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* font-style:font-style: Plus Jakarta Sans; */
+}
+
+.span_1 {
+    /* color: blue; */
+}
+
+.span_2 {
+    /* color: rgb(5, 248, 167); */
+}
+
+.left_section p {
+    width: 397px;
+    font-size: 28px;
+    line-height: 37px;
+    /* font-style:Jakarta Sans; */
+}
+
+.right_section_of_main{
+    width: 35%;
+}
+
+.heading of form {
+    text-align: center;
+    /* font-style:Jakarta Sans; */
+}
+
+.form {
+    align-items: center;
+}
+
+.form input {
+    height: 49px;
+    width: 229px;
+    border-radius: 6px;
+    margin: 9px auto;
+}
+.form button{
+    height: 49px;
+    width: 238px;
+    border-radius: 6px;
+    background-color: #02a933;
+    color: white;
+    font-size: 18px;
+}
